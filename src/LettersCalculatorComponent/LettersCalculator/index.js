@@ -14,11 +14,12 @@ class LettersCalculator extends Component {
 
     return (
       <div >
-        <div className="calculators-letters-inner-container">
-          <div>
-            <h1 className="calculator-main-heading">
+        <div className="calculators-letters-bg-container">
+          <h1 className="calculator-main-heading">
               Calculate the Letters you enter
             </h1>
+          <div className="calculators-letters-inner-container">
+          <div className="calculators-letters-input-section">
             <label className="pharse-description" htmlFor="phraseInput">Enter the phrase</label>
             <input
               id="phraseInput"
@@ -30,12 +31,13 @@ class LettersCalculator extends Component {
               <p className='counter-section-count'>No.of Letters: {count}</p>
             </div>
           </div>
-          <div>
+          <div className='calculators-letters-image-section'>
             <img
               src="https://assets.ccbp.in/frontend/react-js/stop-watch-with-calculator-img.png"
               alt="letters calculator"
               className="calculator-section-img"
             />
+          </div>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const SuggestionItem = props => {
 
   return (
     <li className="Suggestion-list-item">
-      <p>{suggestion}</p>
+      <p className='google-suggestion'>{suggestion}</p>
       <img
         src="https://assets.ccbp.in/frontend/react-js/diagonal-arrow-left-up.png "
         alt="suggestion-arrow-icon"

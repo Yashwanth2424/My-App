@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/repository-name/static/css/main.0c9b4f17.css",
-    "main.js": "/repository-name/static/js/main.f984828e.js",
-    "static/js/488.9c92ff38.chunk.js": "/repository-name/static/js/488.9c92ff38.chunk.js",
-    "index.html": "/repository-name/index.html",
-    "main.0c9b4f17.css.map": "/repository-name/static/css/main.0c9b4f17.css.map",
-    "main.f984828e.js.map": "/repository-name/static/js/main.f984828e.js.map",
-    "488.9c92ff38.chunk.js.map": "/repository-name/static/js/488.9c92ff38.chunk.js.map"
+    "main.css": "/My-App/static/css/main.0c9b4f17.css",
+    "main.js": "/My-App/static/js/main.da808335.js",
+    "static/js/488.9c92ff38.chunk.js": "/My-App/static/js/488.9c92ff38.chunk.js",
+    "index.html": "/My-App/index.html",
+    "main.0c9b4f17.css.map": "/My-App/static/css/main.0c9b4f17.css.map",
+    "main.da808335.js.map": "/My-App/static/js/main.da808335.js.map",
+    "488.9c92ff38.chunk.js.map": "/My-App/static/js/488.9c92ff38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c9b4f17.css",
-    "static/js/main.f984828e.js"
+    "static/js/main.da808335.js"
   ]
 }
