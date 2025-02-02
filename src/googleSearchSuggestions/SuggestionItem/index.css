@@ -1,0 +1,19 @@
+.Suggestion-list-item {
+      list-style-type: none;
+      font-family: Roboto;
+      width: 76vh;
+      margin: 0px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-right: 35px;
+      color: #475569;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .arrow-icon {
+      height: 30px;
+      width: 30px;
+    }
+    
