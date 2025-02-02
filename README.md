@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # my-app
 This is my first React Project
 =======
@@ -72,4 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 7b8907c (Initial commit)
+ 7b8907c (Initial commit)
+
+# My-App
+b467ab10ffff03c6d66416cdc1f7d555d9ba32b8
