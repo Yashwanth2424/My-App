@@ -58,6 +58,8 @@
       padding: 0px;
       list-style-type: none;
       width: 90%;
+      padding-left: 0px;
+      margin-left: 0px;
     }
     
     @media (max-width: 600px) {
