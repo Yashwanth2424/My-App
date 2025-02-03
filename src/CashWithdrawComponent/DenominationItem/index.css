@@ -1,10 +1,6 @@
 .denomination-item {
       list-style-type: none;
       cursor: pointer;
-      /* display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center; */
     }
     .button {
       width: 190px;
@@ -20,7 +16,7 @@
 
     @media (max-width: 600px) {
       .button {
-        width: 90px;
+        width: 80px;
         height: 40px;
         background-color: #382f5a;
         color: #c7d2fe;
