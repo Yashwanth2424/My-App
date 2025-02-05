@@ -1,0 +1,118 @@
+
+    .cashwithdrawal-inner-container {
+      background-color: #150b3e;
+      width: 30vw;
+      border-radius: 25px;
+      padding: 60px;
+    }
+    .head-section {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .main-heading {
+      font-family: Roboto;
+      font-size: 2rem;
+      color: #c7d2fe;
+    }
+    .account-name-alphabet {
+      height: 80px;
+      width: 80px;
+      border-radius: 40px;
+      background-color: #c7d2fe;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      color: #7c3aed;
+      margin-right: 25px;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+    .rupees-section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+    .your-balance-heading {
+      font-family: Roboto;
+      font-size: 2rem;
+      color: #585076;
+    }
+    .amount {
+      color: #c7d2fe;
+      font-size: 2.6rem;
+    }
+    .amount-description {
+      font-family: Roboto;
+      font-size: 1.2rem;
+      color: #585076;
+      font-weight: bold;
+    }
+    .withdraw-heading {
+      color: #c7d2fe;
+      font-size: 2.5rem;
+    }
+    .choose-money-para {
+      font-family: Roboto;
+      font-size: 1.8rem;
+      color: #585076;
+    }
+    .denomination-item-container {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 0px;
+      margin-left: 0px;
+    }
+    
+    
+    @media (max-width: 600px) {
+      .account-name-alphabet {
+        height: 60px;
+        width: 80px;
+        border-radius: 40px;
+        background-color: #c7d2fe;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: #7c3aed;
+        margin-right: 25px;
+        font-weight: bold;
+        font-size: 2rem;
+      }
+      .cashwithdrawal-inner-container {
+        background-color: #150b3e;
+        width: 60vw;
+        border-radius: 25px;
+        padding: 60px;
+      }
+      .amount {
+        color: #c7d2fe;
+        font-size: 2rem;
+      }
+      .main-heading {
+        font-family: Roboto;
+        font-size: 1.7rem;
+        color: #c7d2fe;
+      }
+      .amount-description {
+        font-family: Roboto;
+        font-size: 0.8rem;
+        color: #585076;
+        font-weight: bold;
+        margin: 0px;
+      }
+      .withdraw-heading {
+        color: #c7d2fe;
+        font-size: 1.8rem;
+      }
+      .choose-money-para {
+        font-family: Roboto;
+        font-size: 1.2rem;
+        color: #585076;
+      }
+    }
