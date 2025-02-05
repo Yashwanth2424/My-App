@@ -52,7 +52,7 @@ class SimpleTodos extends Component {
       <div className='todo-app-bg-container'>
         <div className="todo-app-inner-container">
           <h1 className="heading">Simple Todos</h1>
-          <ul>
+          <ul className='todo-list-items'>
             {reqTodosList.length === 0 ? <p className='Empty-todos-text'>Empty Todos</p> : (reqTodosList.map(eachItem => (
               <TodoItem
                 key={eachItem.id}

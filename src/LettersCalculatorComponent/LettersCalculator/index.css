@@ -1,21 +1,17 @@
-/* .bg-container {
-      background: linear-gradient(to right, #1d976c, #93f9b9);
-      background-size: cover;
-      height: 100vh;
+  
+    .calculators-letters-bg-container {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 15px;
-    } */
-    
+      padding: 35px;
+      background: linear-gradient(to right, #1d976c, #93f9b9);
+    }
     .calculators-letters-inner-container {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      padding: 35px;
-      background: linear-gradient(to right, #1d976c, #93f9b9);
     }
     .calculator-section-img {
       height: 50vh;
@@ -59,3 +55,52 @@
       font-weight: bold;
     }
     
+    @media (max-width: 600px) {
+      .calculators-letters-bg-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        padding: 35px;
+        background: linear-gradient(to right, #1d976c, #93f9b9);
+      }
+      .calculators-letters-inner-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .calculator-main-heading {
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2.2rem;
+        text-align: center;
+      }
+      .calculator-section-img {
+        height: 220px;
+        width: 220px;
+      }
+      .input-text {
+        background-color: transparent;
+        outline: none;
+        border: 1px solid white;
+        padding: 12px;
+        width: 100%;
+        border-radius: 5px;
+        font-size: 1rem;
+        color: white;
+        order: 2;
+      }
+      .calculator-section-img {
+        height: 50vh;
+        width: 60vh;
+        order: 1;
+      }
+      .calculators-letters-input-section {
+        order: 2;
+      }
+      .calculators-letters-image-section {
+        order: 1;
+      }
+    }

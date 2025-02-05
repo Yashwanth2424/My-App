@@ -13,4 +13,18 @@
       border-radius: 5px;
       cursor: pointer;
     }
+
+    @media (max-width: 600px) {
+      .button {
+        width: 80px;
+        height: 40px;
+        background-color: #382f5a;
+        color: #c7d2fe;
+        margin: 12px;
+        font-size: 1.5rem;
+        border: 1px solid #c7d2fe;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
     

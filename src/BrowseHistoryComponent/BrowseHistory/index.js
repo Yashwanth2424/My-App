@@ -100,13 +100,15 @@ class BrowserHistory extends Component {
 
     return (
       <div>
-        <div className="nav-bar">
+        <div className="browser-history-nav-bar">
+          <div>
           <img
             src="https://assets.ccbp.in/frontend/react-js/history-website-logo-img.png"
             alt="app logo"
             className="history-app-logo"
           />
-          <div className="input-section">
+          </div>
+          <div className="browser-history-input-section">
             <img
               src="https://assets.ccbp.in/frontend/react-js/search-img.png"
               alt="search"
@@ -114,7 +116,7 @@ class BrowserHistory extends Component {
             />
             <input
               type="search"
-              className="input-search-bar"
+              className="browser-history-input-search-bar"
               placeholder="Search History"
               onChange={this.getInputText}
             />
